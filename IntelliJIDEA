@@ -1,0 +1,14 @@
+/*
+Edit some configurations
+
+1. File -> Project Structure 
+2. Edit SDK
+3. Add the path to jdk folder 
+
+1. File -> Systems
+2. Editor -> General ->Auto-import -> Select two checkboxes (add unambiguous & optimize imports)
+3. Editor -> General ->Appearance -> Check that show line numbers is selected
+4. Editor -> General ->Appearance -> Code Folding -> Deselect imports & one-line methods & closures & generic structure 
+and method parameters
+
+*/
