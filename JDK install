@@ -1,0 +1,14 @@
+/*
+
+Open JDK was downloaded (.zip) version 13
+
+1. Add the jdk to path.
+2. Add to system variables as new system variable. 
+  As: 
+    JAVA_HOME (name)
+    C:\jdk\jdk-13.0.2 (location)
+3. Edit the path in system variables
+  New enviroment variable
+    %JAVA_HOME%\bin
+ 4.In the cmd. Type java -version to check that Java can be run
+*/
