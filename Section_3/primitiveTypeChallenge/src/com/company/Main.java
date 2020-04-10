@@ -19,18 +19,26 @@ public class Main {
 
 		System.out.println("Min Float Value: " + myMinFloatValue);
 		System.out.println("Max Float Value " + myMaxFloatValue);
-		System.out.println("Min Double Vlaue " + myMinDoubleValue);
+		System.out.println("Min Double Value " + myMinDoubleValue);
 		System.out.println("Max Double Value " + myMaxDoubleValue);
 
 		//int is the default for whole numbers in Java
 		//double is the default for decimals in Java
 
-		int myIntValue = 2;
+		int myIntValue = 5 / 3;
 //		float myFloatValue = (float) 2.2;
-		float myFloatValue2 =  2.2f;
-		double myDoubleValue = 2.2d;
+		float myFloatValue2 =  5f / 3f;
+		double myDoubleValue = 5d / 3d;
 
-		//challenge
+		System.out.println("My Int value " + myIntValue);
+		System.out.println("My float value " + myFloatValue2);
+		System.out.println("My double value " + myDoubleValue);
 
+		//challenge -> pound to kg
+		double pound = 200d;
+		double kilogram = pound * 0.453592d;
+		System.out.println(pound + "pound to kg is " + kilogram);
+
+		//note: for precise calculations like finance bigDecimal is used in Java
     }
 }
